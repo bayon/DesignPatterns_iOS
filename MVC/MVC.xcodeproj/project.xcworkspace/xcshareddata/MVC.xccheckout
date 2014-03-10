@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>939A44F2-E161-4C04-99D1-345239E45238</string>
+	<string>195A0DFF-1B81-443A-849F-B2574ADBB7D3</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MVC</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>A8934FF1-1D57-4A5D-98B2-A867BD03AEB8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>DesignPatterns_iOS</string>
+			<string>MVC</string>
 		</dict>
 	</array>
 </dict>
