@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28BB5C3418D0F16600C82F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5C3318D0F16600C82F51 /* Foundation.framework */; };
+		28BB5C3618D0F16600C82F51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5C3518D0F16600C82F51 /* CoreGraphics.framework */; };
+		28BB5C3818D0F16600C82F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5C3718D0F16600C82F51 /* UIKit.framework */; };
+		28BB5C3E18D0F16600C82F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28BB5C3C18D0F16600C82F51 /* InfoPlist.strings */; };
+		28BB5C4018D0F16600C82F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C3F18D0F16600C82F51 /* main.m */; };
+		28BB5C4418D0F16600C82F51 /* FBFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C4318D0F16600C82F51 /* FBFAppDelegate.m */; };
+		28BB5C4718D0F16600C82F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BB5C4518D0F16600C82F51 /* Main.storyboard */; };
+		28BB5C4A18D0F16600C82F51 /* FBFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C4918D0F16600C82F51 /* FBFViewController.m */; };
+		28BB5C4C18D0F16600C82F51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BB5C4B18D0F16600C82F51 /* Images.xcassets */; };
+		28BB5C5318D0F16600C82F51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5C5218D0F16600C82F51 /* XCTest.framework */; };
+		28BB5C5418D0F16600C82F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5C3318D0F16600C82F51 /* Foundation.framework */; };
+		28BB5C5518D0F16600C82F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5C3718D0F16600C82F51 /* UIKit.framework */; };
+		28BB5C5D18D0F16600C82F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28BB5C5B18D0F16600C82F51 /* InfoPlist.strings */; };
+		28BB5C5F18D0F16600C82F51 /* FactoryXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C5E18D0F16600C82F51 /* FactoryXTests.m */; };
+		28BB5C6A18D0F1BC00C82F51 /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C6918D0F1BC00C82F51 /* PizzaStore.m */; };
+		28BB5C6D18D0F49C00C82F51 /* PizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C6C18D0F49C00C82F51 /* PizzaFactory.m */; };
+		28BB5C7118D0F5C800C82F51 /* CheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C7018D0F5C800C82F51 /* CheesePizza.m */; };
+		28BB5C7418D0F5D200C82F51 /* GreekPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C7318D0F5D200C82F51 /* GreekPizza.m */; };
+		28BB5C7718D0F5E600C82F51 /* PepporoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C7618D0F5E600C82F51 /* PepporoniPizza.m */; };
+		28BB5C7A18D0F94000C82F51 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C7918D0F94000C82F51 /* Pizza.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28BB5C5618D0F16600C82F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28BB5C2818D0F16600C82F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28BB5C2F18D0F16600C82F51;
+			remoteInfo = FactoryX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28BB5C3018D0F16600C82F51 /* FactoryX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoryX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BB5C3318D0F16600C82F51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28BB5C3518D0F16600C82F51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28BB5C3718D0F16600C82F51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28BB5C3B18D0F16600C82F51 /* FactoryX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FactoryX-Info.plist"; sourceTree = "<group>"; };
+		28BB5C3D18D0F16600C82F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28BB5C3F18D0F16600C82F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28BB5C4118D0F16600C82F51 /* FactoryX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FactoryX-Prefix.pch"; sourceTree = "<group>"; };
+		28BB5C4218D0F16600C82F51 /* FBFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBFAppDelegate.h; sourceTree = "<group>"; };
+		28BB5C4318D0F16600C82F51 /* FBFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBFAppDelegate.m; sourceTree = "<group>"; };
+		28BB5C4618D0F16600C82F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28BB5C4818D0F16600C82F51 /* FBFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBFViewController.h; sourceTree = "<group>"; };
+		28BB5C4918D0F16600C82F51 /* FBFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBFViewController.m; sourceTree = "<group>"; };
+		28BB5C4B18D0F16600C82F51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28BB5C5118D0F16600C82F51 /* FactoryXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BB5C5218D0F16600C82F51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28BB5C5A18D0F16600C82F51 /* FactoryXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FactoryXTests-Info.plist"; sourceTree = "<group>"; };
+		28BB5C5C18D0F16600C82F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28BB5C5E18D0F16600C82F51 /* FactoryXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryXTests.m; sourceTree = "<group>"; };
+		28BB5C6818D0F1BC00C82F51 /* PizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		28BB5C6918D0F1BC00C82F51 /* PizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
+		28BB5C6B18D0F49C00C82F51 /* PizzaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaFactory.h; sourceTree = "<group>"; };
+		28BB5C6C18D0F49C00C82F51 /* PizzaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaFactory.m; sourceTree = "<group>"; };
+		28BB5C6F18D0F5C800C82F51 /* CheesePizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheesePizza.h; sourceTree = "<group>"; };
+		28BB5C7018D0F5C800C82F51 /* CheesePizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheesePizza.m; sourceTree = "<group>"; };
+		28BB5C7218D0F5D200C82F51 /* GreekPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreekPizza.h; sourceTree = "<group>"; };
+		28BB5C7318D0F5D200C82F51 /* GreekPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreekPizza.m; sourceTree = "<group>"; };
+		28BB5C7518D0F5E600C82F51 /* PepporoniPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PepporoniPizza.h; sourceTree = "<group>"; };
+		28BB5C7618D0F5E600C82F51 /* PepporoniPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PepporoniPizza.m; sourceTree = "<group>"; };
+		28BB5C7818D0F94000C82F51 /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		28BB5C7918D0F94000C82F51 /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28BB5C2D18D0F16600C82F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5C3618D0F16600C82F51 /* CoreGraphics.framework in Frameworks */,
+				28BB5C3818D0F16600C82F51 /* UIKit.framework in Frameworks */,
+				28BB5C3418D0F16600C82F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BB5C4E18D0F16600C82F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5C5318D0F16600C82F51 /* XCTest.framework in Frameworks */,
+				28BB5C5518D0F16600C82F51 /* UIKit.framework in Frameworks */,
+				28BB5C5418D0F16600C82F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28BB5C2718D0F16600C82F51 = {
+			isa = PBXGroup;
+			children = (
+				28BB5C3918D0F16600C82F51 /* FactoryX */,
+				28BB5C5818D0F16600C82F51 /* FactoryXTests */,
+				28BB5C3218D0F16600C82F51 /* Frameworks */,
+				28BB5C3118D0F16600C82F51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28BB5C3118D0F16600C82F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5C3018D0F16600C82F51 /* FactoryX.app */,
+				28BB5C5118D0F16600C82F51 /* FactoryXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28BB5C3218D0F16600C82F51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5C3318D0F16600C82F51 /* Foundation.framework */,
+				28BB5C3518D0F16600C82F51 /* CoreGraphics.framework */,
+				28BB5C3718D0F16600C82F51 /* UIKit.framework */,
+				28BB5C5218D0F16600C82F51 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28BB5C3918D0F16600C82F51 /* FactoryX */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5C4218D0F16600C82F51 /* FBFAppDelegate.h */,
+				28BB5C4318D0F16600C82F51 /* FBFAppDelegate.m */,
+				28BB5C4818D0F16600C82F51 /* FBFViewController.h */,
+				28BB5C4918D0F16600C82F51 /* FBFViewController.m */,
+				28BB5C4B18D0F16600C82F51 /* Images.xcassets */,
+				28BB5C4518D0F16600C82F51 /* Main.storyboard */,
+				28BB5C6B18D0F49C00C82F51 /* PizzaFactory.h */,
+				28BB5C6C18D0F49C00C82F51 /* PizzaFactory.m */,
+				28BB5C6E18D0F5B400C82F51 /* Pizzas */,
+				28BB5C6818D0F1BC00C82F51 /* PizzaStore.h */,
+				28BB5C6918D0F1BC00C82F51 /* PizzaStore.m */,
+				28BB5C3A18D0F16600C82F51 /* Supporting Files */,
+			);
+			path = FactoryX;
+			sourceTree = "<group>";
+		};
+		28BB5C3A18D0F16600C82F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5C3B18D0F16600C82F51 /* FactoryX-Info.plist */,
+				28BB5C3C18D0F16600C82F51 /* InfoPlist.strings */,
+				28BB5C3F18D0F16600C82F51 /* main.m */,
+				28BB5C4118D0F16600C82F51 /* FactoryX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28BB5C5818D0F16600C82F51 /* FactoryXTests */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5C5E18D0F16600C82F51 /* FactoryXTests.m */,
+				28BB5C5918D0F16600C82F51 /* Supporting Files */,
+			);
+			path = FactoryXTests;
+			sourceTree = "<group>";
+		};
+		28BB5C5918D0F16600C82F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5C5A18D0F16600C82F51 /* FactoryXTests-Info.plist */,
+				28BB5C5B18D0F16600C82F51 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28BB5C6E18D0F5B400C82F51 /* Pizzas */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5C6F18D0F5C800C82F51 /* CheesePizza.h */,
+				28BB5C7018D0F5C800C82F51 /* CheesePizza.m */,
+				28BB5C7218D0F5D200C82F51 /* GreekPizza.h */,
+				28BB5C7318D0F5D200C82F51 /* GreekPizza.m */,
+				28BB5C7518D0F5E600C82F51 /* PepporoniPizza.h */,
+				28BB5C7618D0F5E600C82F51 /* PepporoniPizza.m */,
+				28BB5C7818D0F94000C82F51 /* Pizza.h */,
+				28BB5C7918D0F94000C82F51 /* Pizza.m */,
+			);
+			name = Pizzas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28BB5C2F18D0F16600C82F51 /* FactoryX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BB5C6218D0F16600C82F51 /* Build configuration list for PBXNativeTarget "FactoryX" */;
+			buildPhases = (
+				28BB5C2C18D0F16600C82F51 /* Sources */,
+				28BB5C2D18D0F16600C82F51 /* Frameworks */,
+				28BB5C2E18D0F16600C82F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FactoryX;
+			productName = FactoryX;
+			productReference = 28BB5C3018D0F16600C82F51 /* FactoryX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28BB5C5018D0F16600C82F51 /* FactoryXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BB5C6518D0F16600C82F51 /* Build configuration list for PBXNativeTarget "FactoryXTests" */;
+			buildPhases = (
+				28BB5C4D18D0F16600C82F51 /* Sources */,
+				28BB5C4E18D0F16600C82F51 /* Frameworks */,
+				28BB5C4F18D0F16600C82F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28BB5C5718D0F16600C82F51 /* PBXTargetDependency */,
+			);
+			name = FactoryXTests;
+			productName = FactoryXTests;
+			productReference = 28BB5C5118D0F16600C82F51 /* FactoryXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28BB5C2818D0F16600C82F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FBF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Mocura;
+				TargetAttributes = {
+					28BB5C5018D0F16600C82F51 = {
+						TestTargetID = 28BB5C2F18D0F16600C82F51;
+					};
+				};
+			};
+			buildConfigurationList = 28BB5C2B18D0F16600C82F51 /* Build configuration list for PBXProject "FactoryX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28BB5C2718D0F16600C82F51;
+			productRefGroup = 28BB5C3118D0F16600C82F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28BB5C2F18D0F16600C82F51 /* FactoryX */,
+				28BB5C5018D0F16600C82F51 /* FactoryXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28BB5C2E18D0F16600C82F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5C4C18D0F16600C82F51 /* Images.xcassets in Resources */,
+				28BB5C3E18D0F16600C82F51 /* InfoPlist.strings in Resources */,
+				28BB5C4718D0F16600C82F51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BB5C4F18D0F16600C82F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5C5D18D0F16600C82F51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28BB5C2C18D0F16600C82F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5C7A18D0F94000C82F51 /* Pizza.m in Sources */,
+				28BB5C4018D0F16600C82F51 /* main.m in Sources */,
+				28BB5C4418D0F16600C82F51 /* FBFAppDelegate.m in Sources */,
+				28BB5C4A18D0F16600C82F51 /* FBFViewController.m in Sources */,
+				28BB5C7418D0F5D200C82F51 /* GreekPizza.m in Sources */,
+				28BB5C7118D0F5C800C82F51 /* CheesePizza.m in Sources */,
+				28BB5C7718D0F5E600C82F51 /* PepporoniPizza.m in Sources */,
+				28BB5C6D18D0F49C00C82F51 /* PizzaFactory.m in Sources */,
+				28BB5C6A18D0F1BC00C82F51 /* PizzaStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BB5C4D18D0F16600C82F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5C5F18D0F16600C82F51 /* FactoryXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28BB5C5718D0F16600C82F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28BB5C2F18D0F16600C82F51 /* FactoryX */;
+			targetProxy = 28BB5C5618D0F16600C82F51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28BB5C3C18D0F16600C82F51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28BB5C3D18D0F16600C82F51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28BB5C4518D0F16600C82F51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28BB5C4618D0F16600C82F51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28BB5C5B18D0F16600C82F51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28BB5C5C18D0F16600C82F51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28BB5C6018D0F16600C82F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28BB5C6118D0F16600C82F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28BB5C6318D0F16600C82F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoryX/FactoryX-Prefix.pch";
+				INFOPLIST_FILE = "FactoryX/FactoryX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28BB5C6418D0F16600C82F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoryX/FactoryX-Prefix.pch";
+				INFOPLIST_FILE = "FactoryX/FactoryX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28BB5C6618D0F16600C82F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FactoryX.app/FactoryX";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoryX/FactoryX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FactoryXTests/FactoryXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		28BB5C6718D0F16600C82F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FactoryX.app/FactoryX";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FactoryX/FactoryX-Prefix.pch";
+				INFOPLIST_FILE = "FactoryXTests/FactoryXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28BB5C2B18D0F16600C82F51 /* Build configuration list for PBXProject "FactoryX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BB5C6018D0F16600C82F51 /* Debug */,
+				28BB5C6118D0F16600C82F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28BB5C6218D0F16600C82F51 /* Build configuration list for PBXNativeTarget "FactoryX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BB5C6318D0F16600C82F51 /* Debug */,
+				28BB5C6418D0F16600C82F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28BB5C6518D0F16600C82F51 /* Build configuration list for PBXNativeTarget "FactoryXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BB5C6618D0F16600C82F51 /* Debug */,
+				28BB5C6718D0F16600C82F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28BB5C2818D0F16600C82F51 /* Project object */;
+}
