@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28BB5B9918D0DF5400C82F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5B9818D0DF5400C82F51 /* Foundation.framework */; };
+		28BB5B9B18D0DF5400C82F51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5B9A18D0DF5400C82F51 /* CoreGraphics.framework */; };
+		28BB5B9D18D0DF5400C82F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5B9C18D0DF5400C82F51 /* UIKit.framework */; };
+		28BB5BA318D0DF5400C82F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28BB5BA118D0DF5400C82F51 /* InfoPlist.strings */; };
+		28BB5BA518D0DF5400C82F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5BA418D0DF5400C82F51 /* main.m */; };
+		28BB5BA918D0DF5400C82F51 /* FBFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5BA818D0DF5400C82F51 /* FBFAppDelegate.m */; };
+		28BB5BAC18D0DF5400C82F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BB5BAA18D0DF5400C82F51 /* Main.storyboard */; };
+		28BB5BAF18D0DF5400C82F51 /* FBFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5BAE18D0DF5400C82F51 /* FBFViewController.m */; };
+		28BB5BB118D0DF5400C82F51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BB5BB018D0DF5400C82F51 /* Images.xcassets */; };
+		28BB5BB818D0DF5400C82F51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5BB718D0DF5400C82F51 /* XCTest.framework */; };
+		28BB5BB918D0DF5400C82F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5B9818D0DF5400C82F51 /* Foundation.framework */; };
+		28BB5BBA18D0DF5400C82F51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BB5B9C18D0DF5400C82F51 /* UIKit.framework */; };
+		28BB5BC218D0DF5400C82F51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28BB5BC018D0DF5400C82F51 /* InfoPlist.strings */; };
+		28BB5BC418D0DF5400C82F51 /* DecoratorDPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5BC318D0DF5400C82F51 /* DecoratorDPTests.m */; };
+		28BB5BCF18D0DFE800C82F51 /* Icecream.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5BCE18D0DFE800C82F51 /* Icecream.m */; };
+		28BB5BD218D0DFF700C82F51 /* HoneyDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5BD118D0DFF700C82F51 /* HoneyDecorator.m */; };
+		28BB5BD518D0E00800C82F51 /* IcecreamDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5BD418D0E00800C82F51 /* IcecreamDecorator.m */; };
+		28BB5BD818D0E01700C82F51 /* NuttyDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5BD718D0E01700C82F51 /* NuttyDecorator.m */; };
+		28BB5BDB18D0E02600C82F51 /* SimpleIcecream.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5BDA18D0E02600C82F51 /* SimpleIcecream.m */; };
+		28BB5BDD18D0E56E00C82F51 /* DecoratorDP.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28BB5BDC18D0E56E00C82F51 /* DecoratorDP.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28BB5BBB18D0DF5400C82F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28BB5B8D18D0DF5400C82F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28BB5B9418D0DF5400C82F51;
+			remoteInfo = DecoratorDP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28BB5B9518D0DF5400C82F51 /* DecoratorDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecoratorDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BB5B9818D0DF5400C82F51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28BB5B9A18D0DF5400C82F51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28BB5B9C18D0DF5400C82F51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28BB5BA018D0DF5400C82F51 /* DecoratorDP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DecoratorDP-Info.plist"; sourceTree = "<group>"; };
+		28BB5BA218D0DF5400C82F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28BB5BA418D0DF5400C82F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28BB5BA618D0DF5400C82F51 /* DecoratorDP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DecoratorDP-Prefix.pch"; sourceTree = "<group>"; };
+		28BB5BA718D0DF5400C82F51 /* FBFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBFAppDelegate.h; sourceTree = "<group>"; };
+		28BB5BA818D0DF5400C82F51 /* FBFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBFAppDelegate.m; sourceTree = "<group>"; };
+		28BB5BAB18D0DF5400C82F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28BB5BAD18D0DF5400C82F51 /* FBFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBFViewController.h; sourceTree = "<group>"; };
+		28BB5BAE18D0DF5400C82F51 /* FBFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBFViewController.m; sourceTree = "<group>"; };
+		28BB5BB018D0DF5400C82F51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28BB5BB618D0DF5400C82F51 /* DecoratorDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoratorDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BB5BB718D0DF5400C82F51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28BB5BBF18D0DF5400C82F51 /* DecoratorDPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DecoratorDPTests-Info.plist"; sourceTree = "<group>"; };
+		28BB5BC118D0DF5400C82F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28BB5BC318D0DF5400C82F51 /* DecoratorDPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorDPTests.m; sourceTree = "<group>"; };
+		28BB5BCD18D0DFE800C82F51 /* Icecream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Icecream.h; sourceTree = "<group>"; };
+		28BB5BCE18D0DFE800C82F51 /* Icecream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Icecream.m; sourceTree = "<group>"; };
+		28BB5BD018D0DFF700C82F51 /* HoneyDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoneyDecorator.h; sourceTree = "<group>"; };
+		28BB5BD118D0DFF700C82F51 /* HoneyDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoneyDecorator.m; sourceTree = "<group>"; };
+		28BB5BD318D0E00800C82F51 /* IcecreamDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IcecreamDecorator.h; sourceTree = "<group>"; };
+		28BB5BD418D0E00800C82F51 /* IcecreamDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IcecreamDecorator.m; sourceTree = "<group>"; };
+		28BB5BD618D0E01700C82F51 /* NuttyDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuttyDecorator.h; sourceTree = "<group>"; };
+		28BB5BD718D0E01700C82F51 /* NuttyDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuttyDecorator.m; sourceTree = "<group>"; };
+		28BB5BD918D0E02600C82F51 /* SimpleIcecream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleIcecream.h; sourceTree = "<group>"; };
+		28BB5BDA18D0E02600C82F51 /* SimpleIcecream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleIcecream.m; sourceTree = "<group>"; };
+		28BB5BDC18D0E56E00C82F51 /* DecoratorDP.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DecoratorDP.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28BB5B9218D0DF5400C82F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5B9B18D0DF5400C82F51 /* CoreGraphics.framework in Frameworks */,
+				28BB5B9D18D0DF5400C82F51 /* UIKit.framework in Frameworks */,
+				28BB5B9918D0DF5400C82F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BB5BB318D0DF5400C82F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5BB818D0DF5400C82F51 /* XCTest.framework in Frameworks */,
+				28BB5BBA18D0DF5400C82F51 /* UIKit.framework in Frameworks */,
+				28BB5BB918D0DF5400C82F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28BB5B8C18D0DF5400C82F51 = {
+			isa = PBXGroup;
+			children = (
+				28BB5B9E18D0DF5400C82F51 /* DecoratorDP */,
+				28BB5BBD18D0DF5400C82F51 /* DecoratorDPTests */,
+				28BB5B9718D0DF5400C82F51 /* Frameworks */,
+				28BB5B9618D0DF5400C82F51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28BB5B9618D0DF5400C82F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5B9518D0DF5400C82F51 /* DecoratorDP.app */,
+				28BB5BB618D0DF5400C82F51 /* DecoratorDPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28BB5B9718D0DF5400C82F51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5B9818D0DF5400C82F51 /* Foundation.framework */,
+				28BB5B9A18D0DF5400C82F51 /* CoreGraphics.framework */,
+				28BB5B9C18D0DF5400C82F51 /* UIKit.framework */,
+				28BB5BB718D0DF5400C82F51 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28BB5B9E18D0DF5400C82F51 /* DecoratorDP */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5BA718D0DF5400C82F51 /* FBFAppDelegate.h */,
+				28BB5BA818D0DF5400C82F51 /* FBFAppDelegate.m */,
+				28BB5BAD18D0DF5400C82F51 /* FBFViewController.h */,
+				28BB5BAE18D0DF5400C82F51 /* FBFViewController.m */,
+				28BB5BD018D0DFF700C82F51 /* HoneyDecorator.h */,
+				28BB5BD118D0DFF700C82F51 /* HoneyDecorator.m */,
+				28BB5BCD18D0DFE800C82F51 /* Icecream.h */,
+				28BB5BCE18D0DFE800C82F51 /* Icecream.m */,
+				28BB5BD318D0E00800C82F51 /* IcecreamDecorator.h */,
+				28BB5BD418D0E00800C82F51 /* IcecreamDecorator.m */,
+				28BB5BB018D0DF5400C82F51 /* Images.xcassets */,
+				28BB5BAA18D0DF5400C82F51 /* Main.storyboard */,
+				28BB5BD618D0E01700C82F51 /* NuttyDecorator.h */,
+				28BB5BD718D0E01700C82F51 /* NuttyDecorator.m */,
+				28BB5BD918D0E02600C82F51 /* SimpleIcecream.h */,
+				28BB5BDA18D0E02600C82F51 /* SimpleIcecream.m */,
+				28BB5B9F18D0DF5400C82F51 /* Supporting Files */,
+				28BB5BDC18D0E56E00C82F51 /* DecoratorDP.txt */,
+			);
+			path = DecoratorDP;
+			sourceTree = "<group>";
+		};
+		28BB5B9F18D0DF5400C82F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5BA018D0DF5400C82F51 /* DecoratorDP-Info.plist */,
+				28BB5BA118D0DF5400C82F51 /* InfoPlist.strings */,
+				28BB5BA418D0DF5400C82F51 /* main.m */,
+				28BB5BA618D0DF5400C82F51 /* DecoratorDP-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28BB5BBD18D0DF5400C82F51 /* DecoratorDPTests */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5BC318D0DF5400C82F51 /* DecoratorDPTests.m */,
+				28BB5BBE18D0DF5400C82F51 /* Supporting Files */,
+			);
+			path = DecoratorDPTests;
+			sourceTree = "<group>";
+		};
+		28BB5BBE18D0DF5400C82F51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28BB5BBF18D0DF5400C82F51 /* DecoratorDPTests-Info.plist */,
+				28BB5BC018D0DF5400C82F51 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28BB5B9418D0DF5400C82F51 /* DecoratorDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BB5BC718D0DF5400C82F51 /* Build configuration list for PBXNativeTarget "DecoratorDP" */;
+			buildPhases = (
+				28BB5B9118D0DF5400C82F51 /* Sources */,
+				28BB5B9218D0DF5400C82F51 /* Frameworks */,
+				28BB5B9318D0DF5400C82F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecoratorDP;
+			productName = DecoratorDP;
+			productReference = 28BB5B9518D0DF5400C82F51 /* DecoratorDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28BB5BB518D0DF5400C82F51 /* DecoratorDPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BB5BCA18D0DF5400C82F51 /* Build configuration list for PBXNativeTarget "DecoratorDPTests" */;
+			buildPhases = (
+				28BB5BB218D0DF5400C82F51 /* Sources */,
+				28BB5BB318D0DF5400C82F51 /* Frameworks */,
+				28BB5BB418D0DF5400C82F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28BB5BBC18D0DF5400C82F51 /* PBXTargetDependency */,
+			);
+			name = DecoratorDPTests;
+			productName = DecoratorDPTests;
+			productReference = 28BB5BB618D0DF5400C82F51 /* DecoratorDPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28BB5B8D18D0DF5400C82F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FBF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Mocura;
+				TargetAttributes = {
+					28BB5BB518D0DF5400C82F51 = {
+						TestTargetID = 28BB5B9418D0DF5400C82F51;
+					};
+				};
+			};
+			buildConfigurationList = 28BB5B9018D0DF5400C82F51 /* Build configuration list for PBXProject "DecoratorDP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28BB5B8C18D0DF5400C82F51;
+			productRefGroup = 28BB5B9618D0DF5400C82F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28BB5B9418D0DF5400C82F51 /* DecoratorDP */,
+				28BB5BB518D0DF5400C82F51 /* DecoratorDPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28BB5B9318D0DF5400C82F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5BDD18D0E56E00C82F51 /* DecoratorDP.txt in Resources */,
+				28BB5BB118D0DF5400C82F51 /* Images.xcassets in Resources */,
+				28BB5BA318D0DF5400C82F51 /* InfoPlist.strings in Resources */,
+				28BB5BAC18D0DF5400C82F51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BB5BB418D0DF5400C82F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5BC218D0DF5400C82F51 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28BB5B9118D0DF5400C82F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5BD518D0E00800C82F51 /* IcecreamDecorator.m in Sources */,
+				28BB5BD218D0DFF700C82F51 /* HoneyDecorator.m in Sources */,
+				28BB5BD818D0E01700C82F51 /* NuttyDecorator.m in Sources */,
+				28BB5BA518D0DF5400C82F51 /* main.m in Sources */,
+				28BB5BA918D0DF5400C82F51 /* FBFAppDelegate.m in Sources */,
+				28BB5BCF18D0DFE800C82F51 /* Icecream.m in Sources */,
+				28BB5BAF18D0DF5400C82F51 /* FBFViewController.m in Sources */,
+				28BB5BDB18D0E02600C82F51 /* SimpleIcecream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BB5BB218D0DF5400C82F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BB5BC418D0DF5400C82F51 /* DecoratorDPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28BB5BBC18D0DF5400C82F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28BB5B9418D0DF5400C82F51 /* DecoratorDP */;
+			targetProxy = 28BB5BBB18D0DF5400C82F51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28BB5BA118D0DF5400C82F51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28BB5BA218D0DF5400C82F51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28BB5BAA18D0DF5400C82F51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28BB5BAB18D0DF5400C82F51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28BB5BC018D0DF5400C82F51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28BB5BC118D0DF5400C82F51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28BB5BC518D0DF5400C82F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28BB5BC618D0DF5400C82F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28BB5BC818D0DF5400C82F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecoratorDP/DecoratorDP-Prefix.pch";
+				INFOPLIST_FILE = "DecoratorDP/DecoratorDP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28BB5BC918D0DF5400C82F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecoratorDP/DecoratorDP-Prefix.pch";
+				INFOPLIST_FILE = "DecoratorDP/DecoratorDP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28BB5BCB18D0DF5400C82F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DecoratorDP.app/DecoratorDP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecoratorDP/DecoratorDP-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DecoratorDPTests/DecoratorDPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		28BB5BCC18D0DF5400C82F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DecoratorDP.app/DecoratorDP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DecoratorDP/DecoratorDP-Prefix.pch";
+				INFOPLIST_FILE = "DecoratorDPTests/DecoratorDPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28BB5B9018D0DF5400C82F51 /* Build configuration list for PBXProject "DecoratorDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BB5BC518D0DF5400C82F51 /* Debug */,
+				28BB5BC618D0DF5400C82F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28BB5BC718D0DF5400C82F51 /* Build configuration list for PBXNativeTarget "DecoratorDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BB5BC818D0DF5400C82F51 /* Debug */,
+				28BB5BC918D0DF5400C82F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28BB5BCA18D0DF5400C82F51 /* Build configuration list for PBXNativeTarget "DecoratorDPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BB5BCB18D0DF5400C82F51 /* Debug */,
+				28BB5BCC18D0DF5400C82F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28BB5B8D18D0DF5400C82F51 /* Project object */;
+}
