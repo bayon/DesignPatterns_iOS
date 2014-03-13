@@ -9,5 +9,20 @@
 #import "PizzaStore.h"
 
 @implementation PizzaStore
-
+@synthesize factory = _factory;
+- (id)initWithFactory:(PizzaFactory *)pizzaFactory
+{
+    self = [super init];
+    if (self) {
+        self.factory = pizzaFactory;
+    }
+    return self;
+}
+-(Pizza *)orderPizzaOfIntType:(NSUInteger)pizzaType{
+    
+    Pizza *pizza = [factory createPizza:1];
+    
+    return pizza;
+    
+}
 @end

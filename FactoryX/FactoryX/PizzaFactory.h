@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Pizza.h"
+
+
+#define kLaughWithGuffaw  1
+#define kLaughWithGiggle  2
+#define kLaughWithSnicker  3
 
 @interface PizzaFactory : NSObject
 
+//- (PizzaFactory *) initWithLaughter:(NSUInteger) laughterType;
+
+- (void) laugh;
+-(Pizza *)createPizza:(NSUInteger)laughterType;
 @end

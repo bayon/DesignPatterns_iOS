@@ -8,7 +8,7 @@
 
 #import "FBFViewController.h"
 #import "PizzaStore.h"
-
+#import "PizzaFactory.h"
 @interface FBFViewController ()
 
 @end
@@ -18,8 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    PizzaStore *store = [[PizzaStore alloc]init];
-    [store makePizza];
+    PizzaFactory *factory = [[PizzaFactory alloc]init];
+    PizzaStore *store = [[PizzaStore alloc]initWithFactory:factory];
+    [store orderPizzaOfIntType:2];
 }
 
 - (void)didReceiveMemoryWarning

@@ -27,6 +27,7 @@
 		28BB5C7418D0F5D200C82F51 /* GreekPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C7318D0F5D200C82F51 /* GreekPizza.m */; };
 		28BB5C7718D0F5E600C82F51 /* PepporoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C7618D0F5E600C82F51 /* PepporoniPizza.m */; };
 		28BB5C7A18D0F94000C82F51 /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB5C7918D0F94000C82F51 /* Pizza.m */; };
+		28BB5C7C18D0F9D300C82F51 /* REFERENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28BB5C7B18D0F9D300C82F51 /* REFERENCE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		28BB5C7618D0F5E600C82F51 /* PepporoniPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PepporoniPizza.m; sourceTree = "<group>"; };
 		28BB5C7818D0F94000C82F51 /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
 		28BB5C7918D0F94000C82F51 /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		28BB5C7B18D0F9D300C82F51 /* REFERENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = REFERENCE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				28BB5C6818D0F1BC00C82F51 /* PizzaStore.h */,
 				28BB5C6918D0F1BC00C82F51 /* PizzaStore.m */,
 				28BB5C3A18D0F16600C82F51 /* Supporting Files */,
+				28BB5C7B18D0F9D300C82F51 /* REFERENCE.txt */,
 			);
 			path = FactoryX;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				28BB5C4C18D0F16600C82F51 /* Images.xcassets in Resources */,
 				28BB5C3E18D0F16600C82F51 /* InfoPlist.strings in Resources */,
+				28BB5C7C18D0F9D300C82F51 /* REFERENCE.txt in Resources */,
 				28BB5C4718D0F16600C82F51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

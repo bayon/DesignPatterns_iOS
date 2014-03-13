@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PizzaFactory.h"
+#import "Pizza.h"
 
-@interface PizzaStore : NSObject
+@interface PizzaStore : NSObject{
+    PizzaFactory *factory;
+}
+- (id)initWithFactory:(PizzaFactory *)factory;
+-(Pizza *)orderPizzaOfIntType:(NSUInteger)pizzaType;
+@property (nonatomic, retain) PizzaFactory *factory;
 
 @end
